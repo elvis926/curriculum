@@ -1,20 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> CURRICULUM VITAE ELVIS AGILA </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="root">
+    <div id="title">
+      <h1><strong>Hoja de vida</strong></h1>
+    </div>
+    <div id="main">
+      <img src="assets/img/Perfil.jpg" alt="Foto_GR" />
+      <p>Información personal:</p>
+      <br />
+      <div id="description">
+        <p><strong>NOMBRES: </strong>Elvis Lenin</p>
+        <p><strong>APELLIDOS: </strong>Agila Paladines</p>
+        <p><strong>FECHA DE NACIMIENTO: </strong>19 de febrero de 1996</p>
+        <p><strong>EDAD: </strong>25 años</p>
+        <p><strong>CÉDULA DE IDENTIDAD: </strong>1725286338</p>
+        <p><strong>EMAIL: </strong>eagila926@gmail.com</p>
+        <p><strong>NACIONALIDAD: </strong>ecuatoriano</p>
+        <p><strong>ESTADO CIVIL: </strong>Soltero</p>
+        <p>
+          <strong>DIRECCIÓN: </strong>Lucha de los Pobres E10A S30E, Quito - Ecuador
+        </p>
+        <p><strong>TELÉFONO CELULAR: </strong>0997918338</p>
+        <p><strong>TELÉFONO CONVENCIONAL: </strong>023074184</p>
+      </div>
+    </div>
+    <div id="buttons">
+      <ion-buttons>
+        <ion-button routerLink="/infobasic" color="primary" size="small"
+          >PERFIL</ion-button
+        >
+        <br />
+        <ion-button routerLink="/educacion" color="primary" size="small"
+          >EDUCACIÓN</ion-button
+        ><br />
+        <ion-button routerLink="/references" color="primary" size="small"
+          >REFERENCIAS</ion-button
+        ></ion-buttons
+      >
+    </div>
   </div>
 </ion-content>
